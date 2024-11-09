@@ -2,6 +2,8 @@
 
 Lio is a comprehensive service designed for efficient document processing and interactive chat capabilities powered by retrieval-augmented generation. Leverage the power of advanced retrieval techniques to integrate document context seamlessly into chat interactions for more precise and context-aware responses.
 
+🔄 Architecture Overview: Built on a robust web-queue-worker pattern where **FastAPI** handles web requests, **Redis** manages message queues, and **Dramatiq** workers process background tasks asynchronously. Powered by **Qdrant** vector database for efficient document storage and retrieval, leveraging **Cohere/OpenAI** embeddings, and **LangChain** for seamless AI interactions and document processing pipeline.
+
 ## 📑 Table of Contents
 - [🎯 Prerequisites](#prerequisites)
 - [⚙️ Setup and Installation](#setup-and-installation)
